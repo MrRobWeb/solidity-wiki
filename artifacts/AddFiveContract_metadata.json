@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AddFiveStorage.sol": "Name"
+			"AddFiveStorage.sol": "AddFiveContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"AddFiveStorage.sol": {
-			"keccak256": "0xfe2f2a9103b7117906330f458279ba20ec14924760e48da1c2cc077f23614f4a",
+			"keccak256": "0xbd913022c6bba4afb4145bc2a412da012e9125fbfed62f4cb987d341176040b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bee899b1d9782e40e9d9d9a3df29c90c30490e0eaf240da1ce6ecd575108ba26",
-				"dweb:/ipfs/QmYMxvjEx9aV42wVMMYh2ZUAdQuif1DCz9VY9bsc97FSAz"
+				"bzz-raw://9da97ae32115816561ccc5050241bb0cd74431c1098fd46b67d5f5d502e769d8",
+				"dweb:/ipfs/QmRJnZpcFKN1U6xsWRiL1DTbuRDkcVYyPGMLXkzQfXmrko"
 			]
 		}
 	},
