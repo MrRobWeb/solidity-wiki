@@ -23,6 +23,8 @@ contract SimpleStorage {
     // dynamic array
     Person[] public listOfPeople;
 
+    mapping (string => uint256) public nameToFavoriteNumber;
+
     function store(uint256 _favoriteNumber) public {
         myFavoriteNumber = _favoriteNumber;
     }
@@ -33,8 +35,12 @@ contract SimpleStorage {
         return myFavoriteNumber;
     }
 
+
+    // calldata and memory are temporary variables
+    // calldata can't be modified; memory variables can be changed
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
         listOfPeople.push(Person(_favoriteNumber, _name));
+        nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 
 }
