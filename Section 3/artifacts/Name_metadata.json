@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Section 3/FundMe.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Section 3/FundMe.sol": {
+			"keccak256": "0xfe2f2a9103b7117906330f458279ba20ec14924760e48da1c2cc077f23614f4a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bee899b1d9782e40e9d9d9a3df29c90c30490e0eaf240da1ce6ecd575108ba26",
+				"dweb:/ipfs/QmYMxvjEx9aV42wVMMYh2ZUAdQuif1DCz9VY9bsc97FSAz"
+			]
+		}
+	},
+	"version": 1
+}
