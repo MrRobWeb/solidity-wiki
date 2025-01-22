@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Section 3/PriceConverter.sol": "Name"
+			"Section 3/PriceConverter.sol": "PriceConverter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Section 3/PriceConverter.sol": {
-			"keccak256": "0xfe2f2a9103b7117906330f458279ba20ec14924760e48da1c2cc077f23614f4a",
+			"keccak256": "0xb664fc81d1808d96e5b4fcb77a596e64dbf58dc625d818dcb046c4a457c73d3c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bee899b1d9782e40e9d9d9a3df29c90c30490e0eaf240da1ce6ecd575108ba26",
-				"dweb:/ipfs/QmYMxvjEx9aV42wVMMYh2ZUAdQuif1DCz9VY9bsc97FSAz"
+				"bzz-raw://bef2acf3537c8ca4eae9e050ed40a871421cdcd09c005169ef09b85ca86a8a7a",
+				"dweb:/ipfs/QmcCDKg985VaThUSL9nEYeDYp2qHovo4qWgWcNXnTkvkhV"
 			]
 		}
 	},

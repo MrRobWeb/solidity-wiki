@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "funder",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmountFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountFunded",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "fund",
 				"outputs": [],
@@ -13,10 +32,41 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "funders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
 				"name": "getConversationRate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -95,11 +145,11 @@
 			]
 		},
 		"Section 3/FundMe.sol": {
-			"keccak256": "0x36bdd8133ea6c9494c9791c7c50600435effe6815ece8a5e6adfd8cf71251c3a",
+			"keccak256": "0x6b741f68e189d5fd4c613bfaf15358cc731bb37abbc077290e1848de4d4b8460",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ddb8c2c9bad963c5ef0299cb79003c28418480cb8302e03a6a3d82608aca8e89",
-				"dweb:/ipfs/Qmbij4h8Jkr1Lc6Lbb8WriRJdV9UgnuEZJgSFN4Y5o246L"
+				"bzz-raw://1c4f169f0f3519e777d3c7c00184205ca62d1d594c8c2f80282f885bfad2409f",
+				"dweb:/ipfs/QmabQPYBqzaw2XWpDykDWk8Wdyq6BzkLpiXS2amu6mCm73"
 			]
 		}
 	},

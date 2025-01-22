@@ -5,10 +5,16 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 
 contract FundMe {
 
-    uint256 public minimumUsd = 1;
+    uint256 public minimumUsd = 5e18;
+
+    address[] public funders;
+    mapping(address funder => uint256 amountFunded) public addressToAmountFunded;
 
     function fund() public payable {
-        require(msg.value >= minimumUsd, "Didn't send enough ETH!");
+        require(getConversationRate(msg.value) >= minimumUsd, "Didn't send enough ETH!");
+        funders.push(msg.sender);
+
+        addressToAmountFunded[msg.sender] = addressToAmountFunded[msg.sender] + msg.value;
 
     }
 
@@ -19,8 +25,10 @@ contract FundMe {
 
         return  uint256(price * 1e10);
     }
-    function getConversationRate() public { 
-
+    function getConversationRate(uint256 ethAmount) public view returns(uint256){ 
+        uint256 ethPrice = getPrice();
+        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1e18;
+        return ethAmountInUsd;
 
     }
 
